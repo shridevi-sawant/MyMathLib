@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10B4E6B31E7A2748906D7FE8 /* MyMathLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyMathLib.podspec; path = ../MyMathLib.podspec; sourceTree = "<group>"; };
+		10B4E6B31E7A2748906D7FE8 /* MyMathLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyMathLib.podspec; path = ../MyMathLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		323E6DEC03D596C69A53B08C /* Pods-MyMathLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMathLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyMathLib_Example/Pods-MyMathLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		36B0228E03C0361CE0929BD3 /* Pods_MyMathLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMathLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MyMathLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMathLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,8 +41,8 @@
 		607FACE51AFB9204008FA782 /* MyMathLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMathLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		74A806B74C062E3B4AC67300 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8007E5392691991657C68E0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		74A806B74C062E3B4AC67300 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8007E5392691991657C68E0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ABD1D858177E66E23D930987 /* Pods_MyMathLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMathLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1606DA9BAD51AE43B3CEE0D /* Pods-MyMathLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMathLib_Example.release.xcconfig"; path = "Target Support Files/Pods-MyMathLib_Example/Pods-MyMathLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C04EA35B3336B364DE68DC59 /* Pods-MyMathLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMathLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyMathLib_Tests/Pods-MyMathLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +86,6 @@
 				C5C981095ECBABD9DC3F9898 /* Pods-MyMathLib_Tests.debug.xcconfig */,
 				C04EA35B3336B364DE68DC59 /* Pods-MyMathLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
